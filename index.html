@@ -24,7 +24,7 @@
 
     /* Base */
     * { box-sizing: border-box; }
-    html,body { height: 100%; margin: 0; font-family: 'Poppins', system-ui, -apple-system, "Segoe UI", Roboto, Arial; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; background: linear-gradient(180deg,#fffdf8 0%, #f9f6ef 100%); color: #062014; }
+    html,body { height: 100%; margin: 0; font-family: 'Poppins', system-ui, -apple-system, "Segoe UI", Roboto, Arial; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; backgro[...]
     a { color: inherit; text-decoration: none; }
 
     /* Page container */
@@ -164,6 +164,7 @@
     .family-item { display:flex; gap:12px; align-items:flex-start; }
     .role { width:110px; color:var(--muted); font-weight:700; font-size:13px; }
     .desc { font-weight:700; color:#082b22; }
+    .contact { font-size:13px; color:var(--muted); margin-top:4px; }
 
     /* Quote */
     .quote {
@@ -268,8 +269,20 @@
           <div class="sub">Immediate family details</div>
 
           <div class="family-list">
-            <div class="family-item"><div class="role">Father</div><div class="desc">Shahul Hameed A</div></div>
-            <div class="family-item"><div class="role">Mother</div><div class="desc">Najemunisha S</div></div>
+            <div class="family-item">
+              <div class="role">Father</div>
+              <div>
+                <div class="desc">Shahul Hameed A</div>
+                <div class="contact">📱 9940164835</div>
+              </div>
+            </div>
+            <div class="family-item">
+              <div class="role">Mother</div>
+              <div>
+                <div class="desc">Najemunisha S</div>
+                <div class="contact">📱 9952002014</div>
+              </div>
+            </div>
             <div class="family-item"><div class="role">Sibling</div><div class="desc">One Younger Sister — Shafana Banu A (Married)</div></div>
           </div>
         </article>
